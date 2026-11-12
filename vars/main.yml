@@ -14,4 +14,4 @@ packages:
   - vim
   - wget
 
-system_timezone: Germany/Berlin
+system_timezone: ETC/UTC+1
