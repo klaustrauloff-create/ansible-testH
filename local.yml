@@ -1,0 +1,16 @@
+---
+
+- name: Basic system setup
+  hosts: localhost
+  connection: local
+  become: true
+
+  vars_files:
+    - vars/main.yml
+
+  tasks:
+
+   - name: Install packages and keep them updated
+     ansible.builtin.package:
+       name: "{{ packages }}"
+       state: latest
