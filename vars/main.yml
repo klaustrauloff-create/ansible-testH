@@ -13,3 +13,5 @@ packages:
   - tmux
   - vim
   - wget
+
+system_timezone: Germany/Berlin
